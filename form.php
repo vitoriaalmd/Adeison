@@ -109,7 +109,7 @@
 
                  <div class="row mb-1">
                     <div class="col-sm-5">
-                        <label> Em caso de EMERGÊNCIA, para quem ligar e em qual número?</label>
+                        <label> Em caso de EMERGÊNCIA, para quem ligar e em qual número?</label> <br>
                         <input type="radio" id="dad" name="emg" value="dad">
                         <label for="dad">Pai</label> &nbsp; &nbsp;
                         <input type="radio" id="mom" name="emg" value="mom">
@@ -129,139 +129,210 @@
                 <h2 class="cnt">Ficha de Saúde da(o) aluna(o)</h2>
 
                 <div class="row mb-1">
-                    <div class="col-sm-12">
-                        <label> É dependente em plano de saúde?</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="ps" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="ps" value="">
-                        <label for="">Sim</label> 
+                    <div class="col-sm-3">
+                        <label> É dependente em plano de saúde?</label>
                     </div>
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                        </select>
+                    </div>
+                </div>
 
-                    <br>
-                    <br>
+                <br> 
 
                     <div class="row mb-1">
-                    <div class="col-sm-12">
-                        <label> Tem algum problema de saúde crônico?</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="sc" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="sc" value="">
-                        <label for="">Sim</label> 
+                    <div class="col-sm-3">
+                        <label> Tem algum problema de saúde crônico?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                        </select>
+                    </div>
                     </div>
 
-                    <br>
-                    <br>
-
-                    <div class="row mb-1">
-                    <div class="col-sm-12">
-                        <label> Tem Alergia?</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="ale" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="ale" value="">
-                        <label for="">Sim</label> 
-                    </div>
-
-                    <br>
-                    <br>
-
-                    <div class="col-sm-12">
-                        <label> Possui alguma restrição alimentar? </label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="ra" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="ra" value="">
-                        <label for="">Sim</label> 
-                    </div>
-
-                    <br>
-                    <br>
-
-                    <div class="col-sm-12">
-                        <label> Já recebeu diagnóstico médico de deficiência? </label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="def" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="def" value="">
-                        <label for="">Sim</label> 
-                    </div>
-
-                    <br>
-                    <br>
-
-                    <div class="col-sm-12">
-                        <label> Apresenta alguma dificuldade motora, auditiva, visual, na fala ou emocional?</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="dif" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="dif" value="">
-                        <label for="">Sim</label> 
-                    </div>
-
-                    <br>
-                    <br>
-
-                    <div class="col-sm-12">
-                        <label> Está em tratamento médico? Se sim, qual e para que doença? </label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="trat" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="trat" value="">
-                        <label for="">Sim</label> 
-                    </div>
-
-                    <br>
-                    <br>
-
-                    <div class="col-sm-12">
-                        <label> Está em uso de alguma medicação? Qual? Quando encerrará o uso? </label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="" value="">
-                        <label for="">Sim</label> 
-                    </div>
-
-                    <br>
                     <br> 
 
-                    <div class="col-sm-12">
-                        <label> As vacinas do calendário de vacinação do Ministério da Saúde estão em dia? </label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="" value="">
-                        <label for="">Sim</label> 
+                    <div class="row mb-1">
+                    <div class="col-sm-3">
+                        <label> Tem alergia(s)?</label>
                     </div>
-
-                    <br>
-                    <br>
-
-                    <div class="col-sm-12">
-                        <label>É acompanhado por psicólogo, terapeuta ocupacional ou fonoaudiólogo? </label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="" value="">
-                        <label for="">Sim</label> 
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                        </select>
                     </div>
-                    <br>
-                    <br>
-
-                    <div class="col-sm-12">
-                        <label> Em caso de emergência para quem ligar e em qual número? </label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="" value="">
-                        <label for="">Sim</label> 
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-2">
+                        <label> Se sim, qual(is)?</label>
                     </div>
-
-                    <br>
-                    <br>
-
-                    <div class="col-sm-12">
-                        <label> Existe alguma outra informação a respeito da saúde do aluno que o responsável queira fazer constar desta ficha? </label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="" value="">
-                        <label for="">Não</label> &nbsp; &nbsp;
-                        <input type="radio" id="" name="" value="">
-                        <label for="">Sim</label> 
+                    <div class="col-sm-3">
+                        <input type="text" id="" class="form-control form-control-sm">
                     </div>
+                </div>
 
-                    <br>
-                    <br>
-              
+                <br> 
+
+                <div class="row mb-1">
+                    <div class="col-sm-3">
+                        <label> Possui alguma restrição alimentar?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-2">
+                        <label> Se sim, qual(is)?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" id="" class="form-control form-control-sm">
+                    </div>
+                </div>
+
+                <br> 
+
+                <div class="row mb-1">
+                    <div class="col-sm-3">
+                        <label> Já recebeu diagnóstico médico de deficiência?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                        </select>
+                    </div>
+                </div>
+                        
+                <br> 
+
+                <div class="row mb-1">
+                    <div class="col-sm-3">
+                        <label> Apresenta alguma dificuldade motora, auditiva, visual, na fala ou emocional?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br> 
+
+                <div class="row mb-1">
+                    <div class="col-sm-3">
+                        <label> Está em tratamento médico? </label>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-2">
+                        <label> Se sim, qual? E para que doença?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" id="" class="form-control form-control-sm">
+                    </div>
+                </div>
+
+                <br> 
+
+                <div class="row mb-1">
+                    <div class="col-sm-3">
+                        <label> Está em uso de alguma medicação? </label>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-2">
+                        <label> Qual? Quando encerrará o uso?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" id="" class="form-control form-control-sm">
+                    </div>
+                </div>
+
+                <br> 
+
+                <div class="row mb-1">
+                    <div class="col-sm-3">
+                        <label> As vacinas do calendário de vacinação do Ministério da Saúde estão em dia?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br> 
+
+                <div class="row mb-1">
+                    <div class="col-sm-3">
+                        <label> É acompanhado por psicólogo, terapeuta ocupacional ou fonoaudiólogo?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br> 
+
+                <div class="row mb-1">
+                    <div class="col-sm-3">
+                        <label> Em caso de emergência para quem ligar e em qual número?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Pai</option>
+                        <option value="">Mãe</option>
+                        </select>
+                    </div>
+                </div>
+
+                <br>
+
+
+                <div class="row mb-1">
+                    <div class="col-sm-3">
+                        <label> Existe alguma outra informação a respeito da saúde do aluno que o responsável queira fazer constar desta ficha?</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <select class="form-control form-control-sm" name="" id="">
+                        <option value="">Sim</option>
+                        <option value="">Não</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-2">
+                        <label> Se sim, qual(is)? </label>
+                    </div>
+                    <div class="col-sm-3">
+                        <input type="text" id="" class="form-control form-control-sm">
+                    </div>
+                </div>
+
+                <br>
+
+                
                 <div class="d-grid gap-2 col-6 mx-auto">
                     <button type="submit" class="btn btn-dark" id="btnSalvar" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Enviar
