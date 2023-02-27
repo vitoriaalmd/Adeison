@@ -1,0 +1,17 @@
+.line {
+    width: auto;
+    height: 0.5px;
+    background-color: black;
+    align-items: center;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+header{
+    position: relative;
+ }
+
+.cnt{
+    text-align: center;
+}
